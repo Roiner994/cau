@@ -1,0 +1,1 @@
+<td><a href="pedido_detalle.php?idmantenimiento=ID_GERENCIA=org0000002<?$row[0]?>"><img src="../imagenes/lupas.jpg" width="23" height="15"style=border:0></a></td>

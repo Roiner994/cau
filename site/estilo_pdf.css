@@ -1,0 +1,44 @@
+body{
+	padding-top: 40px;
+	font-family: arial;
+	font-size: 8px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.encabezado{
+	margin: auto;
+	width: 80%;
+}
+
+.derecha{
+	text-align: right;
+	padding-right: 40px;
+}
+
+.izq{
+ width: 33%;
+ float: left;
+}
+
+.imagen2{
+	float: right;
+}
+
+.cent{
+	text-align: center;
+ 	width: 33%;
+ 	float: left;
+}
+
+.der{
+ 	width: 34%;
+ 	float: left;
+}
+
+table tr td{
+	padding: 3px;
+	border: 1px solid;
+}

@@ -1,0 +1,32 @@
+.tablebtn{
+	border: none;
+}
+.tablebtn a{
+	font: oblique bold 90% cursive;
+	text-decoration: none;
+	background: #480C0C;
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    border: 1px solid transparent;
+    color: white;
+    padding: 2px;
+    margin: 4px;
+}
+.tablebtn a:hover{
+	background: #763131;
+}
+
+.btnver a{
+	font: oblique bold 90% cursive;
+	text-decoration: none;
+	color: #050505;
+}
+
+.btnver a:hover{
+	text-decoration: underline;
+}
+
+.tabla_p{
+	text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="STYLESHEET" type="text/css" href="estilomantenimiento.css">
+<title>GESTION MANTENIMIENTO PREVENTIVO</title>
+</head>
+<body>
+
+<?php
+require_once("conexionsql.php");
+$consulta="select id_gerencia,gerencia,count(*) as cantidad FROM vistamantenimientospreventivos WHERE ID_SITIO<>'SIT0000057' group by id_gerencia order by gerencia";
+conectarMysql();
+$result=mysql_query($consulta);
+mysql_close();
+?>
+<div id="contenedor">
+	<div id="encabezado">
+		<h1>GERENCIA SISTEMAS Y ORGANIZACI&Oacute;N<br>
+		DIVISI&Oacute;N CENTRO ATENCI&Oacute;N A USUARIOS
+		</h1>
+
+	</div>	
+	<div id="cuerpo">
+	<h1>REPORTES DEL SISTEMA DE MANTENIMIENTOS PREVENTIVOS</h1>
+	<dl class="ddMenuPrincipal">
+	<dt><a href="inventario/index.php">REPORTE DE INVENTARIO</a></dt>
+	<dd>MUESTRA LOS REPORTES REFERENTE AL INVENTARIO DE EQUIPOS Y COMPONENTES UTILIZADOS EN PLANTA</dd>
+	<dt><a href="mantenimiento/index.php">REPORTE DE MANTENIMIENTOS PREVENTIVOS</a></dt>
+	<dd>MUESTRA LOS REPORTES REFERENTE A LOS MANTENIMIENTOS PREVENTIVOS DE MICROCOMPUTADORAS, IMPRESORAS Y LAPTOPS HECHOS EN PLANTA</dd>
+	<dt>REPORTE DE INSTALACIONES DE EQUIPOS</dt>
+	<dd>MUESTRA LAS INSTALACIONES DE EQUIPOS Y COMPONENTES HECHOS EN PLANTA</dd>
+	</dl>
+	</div>
+</div>
+</body>
+</html>

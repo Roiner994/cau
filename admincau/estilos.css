@@ -1,0 +1,602 @@
+ul#navlist
+{
+margin-left: 0;
+padding-left: 0;
+white-space: nowrap;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+}
+
+#navlist li { 
+padding: 3px 10px;
+width: 200px;
+font-family:"Arial";
+font-size:10px;
+}
+
+
+
+
+#contenedor {
+	text-align: left;
+	min-width:1500px;
+	height:2000px;
+	margin:auto;
+}
+#cuerpo {
+	margin: 0 5 0px;
+}
+#principal { 
+   margin-left: 0px;
+   position:relative;
+	min-width:2000px;
+	min-height:800px;
+   left: 0px;
+   top: 0px;
+   background-color: #ffffff; 
+} 
+#cabecera {
+	min-width:1000px;
+   height: 110px;
+   margin:0 0 0 0 px;
+   margin-left:0px;
+   background-color: #ffffff;
+   border-bottom-style:solid;
+   border-bottom-color:#666666;
+}
+.tabla {
+   padding-left:100px;
+   padding-right: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-family: arial;
+   font-size: 18px;
+   font-weight: 700;
+   background-color: #ffffff;
+   border-color: #5497e2;
+   border-width: 2px;
+   border-style: dotted;
+   font-style:normal;
+   text-align: center;
+   color: #000000;
+}
+
+.boton {
+   background-color: #5497e2;
+}
+.titulo {
+   background-color: #5497e2;
+   border-color: #ffffff;
+}
+#menuSuperior {
+   width: 1000px;
+   height: 40px;
+   position: relative;
+   margin:0 0 0 0 px;
+   margin-left:0px;
+   color: #3466c2;
+   background-color: #ffffff;
+   border-bottom-color: #3466c2;
+   border-width:thin;
+}
+#subMenuSuperior {
+   width: 1000px;
+   height: 20px;
+   margin:0 0 0 0 px;
+   margin-left:0px;
+   color: #3466c2;
+   background-color: #ffffff;
+   }
+#menuLateral {
+   width: 160px; 
+   font: 7pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+   background-color: #ffffff; 
+   height: 800px;
+   float:left;
+}
+.menuBloque {
+	width: 120px;
+	height: 22px;
+	border-style:solid;
+	border-width:thin;
+	border-color:#c26e54;
+	text-align:left;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:"Arial";
+	font-size:14px;
+	padding-left:5px;
+}
+.menu {
+	 
+
+}
+.tablaLateral {
+	width:160px;
+	height: 20px;
+	padding-top:2px;
+	padding-left:8px;
+	border-right-style:solid;
+	border-right-width:thin;
+	border-right-color:#c26e54;
+	border-left-style:solid;
+	border-left-width:thin;
+	border-left-color:#c26e54;
+
+	text-decoration:none;
+	font-family:"Arial";
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10px;
+	background-color:#ffffff;
+	color:#000000;
+
+}
+.botonLateral {
+	width:160px;
+	height: 20px;
+	padding-top:2px;
+	padding-left:8px;
+	text-decoration:none;
+	font-family:"Arial";
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10px;
+	background-color:#ffffff;
+	color:#000000;
+
+}
+.botonLateral {
+	width:160px;
+	height: 20px;
+	padding-top:2px;
+	padding-left:8px;
+	text-decoration:none;
+	font-family:"Arial";
+	text-align:left;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10px;
+	background-color:#ffffff;
+	color:#000000;
+
+}
+.botonEnlace {
+	width:140px;
+	height: 20px;
+	border-style:solid;
+	border-width:thin;
+	border-color:#666666;
+	padding-top:2px;
+	padding-left:0px;
+	text-decoration:underline;
+	font-family:"Arial";
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	background-color:#CCCCCC;
+	color:#000000;
+
+}
+.botonEnlace:link {
+	width:140px;
+	height: 20px;
+	padding-top:2px;
+	padding-left:8px;
+	text-decoration:underline;
+	font-family:"Arial";
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+	background-color:#ffffff;
+	color:#000000;
+
+}
+.botonLateral:hover {
+	width:160px;
+	height: 20px;
+	padding-top:2px;
+	padding-left:8px;
+	text-decoration:none;
+	font-family:"Arial";
+	text-align:left;
+	text-decoration:underline;
+	font-weight:normal;
+	font-size:10px;
+	background-color:#ffffff;
+	color:#000000;
+
+}
+
+.bloqueCerrado {
+background-image:url(../imagenes/level0_middle.gif);
+width:160px;
+height:20px;
+padding-top:2px;
+padding-left:4px;
+color:#000000;
+border-color:#000080;
+text-align:left;
+text-decoration:none;
+font-weight:bold;
+font-family:"Arial";
+font-size:14px;
+}
+.bloqueAbierto {
+background-image:url(../imagenes/principal.jpg);
+width:160px;
+height:20px;
+padding-top:2px;
+padding-left:4px;
+color:#ffffff;
+border-color:#000080;
+text-align:left;
+text-decoration:none;
+font-weight:bold;
+font-family:"Arial";
+font-size:14px;
+}
+.botonMenuSuperior {
+   color: #3466c2;
+   background-color: #ffffff;
+   font-family: arial;
+   font-size: 11px;
+   text-decoration: none;
+}
+.botonMenuSuperior:hover {
+   color: #336699;
+   background-color: #ffffff;
+   font-family: arial;
+   font-size: 12px;
+   text-decoration: underline;
+}
+.botonMenuSuperior:active {
+   color: #3466c2;
+   background-color: #ffffff;
+   font-family: arial;
+   font-size: 12px;
+   text-decoration: underline;
+}
+.botonSubMenuSuperior {
+   color: #3466c2;
+   background-color: #ffffff;
+   font-family: arial;
+   font-size: 11px;
+   text-decoration: underline;
+}
+#resultado {
+   margin-left: 0px;
+   position:relative;
+   width:985px;
+   height:800px;
+   left: 0px;
+   top: 0px;
+   background-color: #ffffff; 
+   padding: 4 4 4 4px; 
+}
+.tituloPagina {
+width:100%;
+height:20px;
+color:#000000;
+border-color:#c26e54;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+font-family:"Arial";
+font-size:14px;
+}
+h1 {
+width:100%;
+height:20px;
+color:#000000;
+margin-bottom:0;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+font-family:"Arial";
+font-size:16px;
+}
+h2 {
+margin-top:0;
+width:100%;
+height:20px;
+color:#000000;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+font-family:"Arial";
+font-size:12px;
+}
+
+
+.subTituloPagina {
+width:800px;
+height:20px;
+background-image:url(../imagenes/titulos.gif);
+color:#000000;
+border-color:#000080;
+text-align:left;
+font-weight:bold;
+font-family:"Arial";
+font-size:14px;
+}
+.formularioCampoTitulo {
+color:#000000;
+text-align:left;
+font-weight:bold;
+font-family:"Arial";
+font-size:12px;
+}
+.formularioCampo {
+color:#000000;
+text-align:left;
+font-weight:normal;
+font-family:"Arial";
+font-size:12px;
+}
+.inicioSessionDerecha {
+color:#000000;
+text-align:right;
+font-weight:bold;
+font-family:"Arial";
+font-size:12px;
+}
+.inicioSessionIzquierda {
+color:#000000;
+text-align:left;
+font-weight:bold;
+font-family:"Arial";
+font-size:12px;
+}
+.formularioCampoTexto {
+color:#000000;
+width: 200px;
+
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioAreaTexto {
+color:#000000;
+width: 600px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioAreaTextoDespacho {
+color:#000000;
+width: 300px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioAreaTextoPlanilla {
+color:#000000;
+width: 430px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioCampoTextoInformacion{
+color:#000000;
+width: 400px;
+
+border-style:none;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.enlace {
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:300px;
+font-size:10px;
+}
+
+.formularioCampoSeleccion {
+color:#000000;
+width: 300px;
+
+border-color:#c26e54;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioSeleccion {
+color:#000000;
+
+border-color:#c26e54;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+.formularioCampoSeleccion200 {
+color:#000000;
+width: 200px;
+
+border-color:#c26e54;
+border-style:solid;
+text-align:left;
+font-weight:300;
+font-family:"Arial";
+font-size:10px;
+}
+
+.formularioBotones {
+color:#000000;
+border-color:#c26e54;
+text-align:left;
+font-weight:bold;
+font-family:"Arial";
+font-size:12px;
+}
+.formularioTabla {
+border-color:#c26e54;
+border-style:none;
+border-bottom-width:thin;
+}
+.formularioTablaTitulo {
+border-top-color:#c26e54;
+border-bottom-color:#c26e54;
+border-top-style:solid;
+border-bottom-style:solid;
+border-bottom-width:thin;
+border-top-width:thin;
+font-family:"Arial";
+font-size: 14px;
+text-align:left;
+font-weight:bold;
+}
+.formularioTablaTituloCentrado {
+border-top-color:#c26e54;
+border-bottom-color:#c26e54;
+border-top-style:solid;
+border-bottom-style:solid;
+border-bottom-width:thin;
+border-top-width:thin;
+font-family:"Arial";
+font-size: 14px;
+text-align:center;
+font-weight:bold;
+}
+.formularioTablaBotones {
+border-top-color:#c26e54;
+border-bottom-color:#c26e54;
+border-top-style:solid;
+border-bottom-style:solid;
+border-bottom-width:thin;
+border-top-width:thin;
+font-family:"Arial";
+font-size: 14px;
+text-align:center;
+font-weight:bold;
+}
+.piePagina {
+width:1000px;
+text-align:center;
+font-family:"Arial";
+font-size:10px;
+}
+.tabla {
+border-top-color:#c26e54;
+border-bottom-color:#c26e54;
+border-top-style:solid;
+border-bottom-style:solid;
+border-bottom-width:thin;
+border-top-width:thin;
+font-family:"Arial";
+font-size: 14px;
+text-align:left;
+font-weight:bold;
+}
+
+.tablaTitulo {
+border-color:#c26e54;
+background-color:#FFFFFF;
+border-style:solid;
+border-width:thin;
+font-family:"Arial";
+font-weight:bold;
+text-align:center;
+font-size:10px;
+}
+
+.campoTitulo {
+border-color:#c26e54;
+border-color:#c26e54;
+border-style:solid;
+border-width:thin;
+font-family:"Arial";
+font-weight:900;
+font-size:11px;
+}
+
+.campo {
+border-color:#c26e54;
+border-color:#c26e54;
+border-style:none;
+border-width:thin;
+font-family:"Arial";
+font-weight:300;
+font-size:10px;
+}
+
+.tablaTituloIzquierda {
+border-color:#c26e54;
+border-color:#c26e54;
+border-style:solid;
+border-width:thin;
+font-family:"Arial";
+font-weight:bold;
+text-align:left;
+font-size:10px;
+}
+.tablaFilaPar {
+background-color:CCCCCC;
+font-family:"Arial";
+font-weight:300;
+text-align:center;
+font-size:10px;
+}
+.tablaFilaNone {
+background-color:#FFFFFF;
+font-family:"Arial";
+font-weight:300;
+text-align:center;
+font-size:10px;
+}
+
+.mensajeTitulo {
+font-family:"Arial";
+border-width:thin;
+border-style:solid;
+border-color:#c26e54;
+text-decoration:underline;
+font-size:	18px;
+font-weight:bold;
+}
+.mensaje {
+border-style:none;
+font-family:"Arial";
+text-decoration:none;
+font-weight:normal;
+font-size: 14px;
+text-align:center;
+
+}
+
+

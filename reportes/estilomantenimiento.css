@@ -1,0 +1,226 @@
+body {
+	font: 8pt/16pt Arial;
+	}
+h1 { 
+	font: italic normal 120% georgia; 
+	letter-spacing: 1px; 
+	margin-bottom: 0px;
+	text-align:center;
+	color:#000000;
+	font:Arial, Helvetica, sans-serif;
+	border-bottom-style:double;
+	border-bottom:thin;
+	border-color:#999999;
+	
+	}
+h2 { 
+    margin-left: auto;
+    margin-right: auto;
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	margin-bottom: 0px; 
+	color: #7D775C;
+	text-align:center;
+}
+	
+	
+#contenedor {
+position:absolute;
+top:0px;
+left:0px;
+width:100%
+}
+#mantDetalle {
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+p.mantParrafo {
+	text-align:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#encabezado {
+border:thin;
+margin-left:20px;
+border-color:#0000CC;
+background-image:url(imagenes/mantmibam.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+height:70px;
+}
+#encabezado h1 {
+background-image:url(imagenes/mantcvgvenalum.jpg);
+background-repeat:no-repeat;
+background-position:top right;
+margin-right:20px;
+top:0px;
+text-align:center;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:120%;
+font-style:oblique;
+font-weight:bold;
+height:70px;
+
+}
+
+ul.navbar {
+list-style-type:none;
+}
+
+ul.navbar li {
+font-family:Georgia, "Times New Roman", Times, serif;
+text-align:center;
+}
+	
+
+	
+#cuerpo { 
+	margin-top: 10px;
+}
+
+table {
+	margin-top: 10px;
+}
+
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+caption {
+	margin-top: 10px;
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+td, th {
+	padding: 4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+thead th {
+	text-align: left;
+	background:#99CCCC;
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size: 100% !important;
+}
+thead th a {
+	text-align: left;
+	background:#99CCCC;
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size: 100% !important;
+}
+tfoot td {
+	text-align: left;
+	background:#99CCCC;
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size: 100% !important;
+}
+td.foottotal {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+table.tablaGerencia {
+    margin-left: auto;
+    margin-right: auto
+}
+table.tablaGerencia caption {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+tbody td {
+	font-weight: bold;
+}
+td.resaltar {
+	text-align: left;
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size: 100% !important;
+}
+
+tbody tr {
+cursor:pointer;
+background: #FCFDFE;
+}
+tbody tr:hover {
+background: #AAE9EC;
+}
+tbody tr.odd:hover {
+background:#AAE9EC;
+}
+dt {
+	text-align: left;
+	background:#99CCCC;
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size: 100% !important;
+}
+dd {
+background: #FCFDFE;
+margin-left:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+dd.odd {
+background: #F7F9FC;
+}
+
+tbody tr.odd { background: #F7F9FC; }
+
+p.paginador {
+text-align:center;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+font-weight:bold;
+
+}
+
+p.paginador a:link {
+font-style:normal;
+color:#000000;
+
+}
+p.paginador a:hover {
+font-style:normal;
+color:#000000;
+font-weight:bold;
+}
+.paginador a:visited {
+font-style:normal;
+color:#000000;
+font-weight:bold;
+}
+
+p.exportar {
+text-align:center;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+font-weight:bold;
+}
+
+p.exportar a:link {
+font-style:normal;
+color:#000000;
+
+}
+p.exportar a:hover {
+font-style:normal;
+color:#000000;
+font-weight:bold;
+}
+p.exportar a:visited {
+font-style:normal;
+color:#000000;
+font-weight:bold;
+}
+	

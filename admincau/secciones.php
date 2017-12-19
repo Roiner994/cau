@@ -1,0 +1,186 @@
+<link rel="STYLESHEET" type="text/css" href="estilos.css">
+<?php
+	//	if(isset($item) && !empty($item)) {
+		$item=$_GET['item'];
+			switch($item) {
+				case "1":
+					require_once ("solicitudes.php");
+					break 1;
+				case "2":
+					require_once ("../librerias/usuarioSistemaCambiar.php");
+					break 1;
+				case "3":
+					require_once ("../librerias/cerrarSession.php");
+					break 1;
+				case "8":
+					require_once ("../librerias/descripcionNuevo.php");
+					break 1;
+				case "9":
+					require_once ("../librerias/descripcionModificar.php");
+					break 1;
+				case "10":
+					require_once ("../librerias/descripcionEliminar.php");
+					break 1;
+				case "11":
+					require_once ("../librerias/proveedorNuevo.php");
+					break 1;
+				case "12":
+					require_once ("../librerias/proveedorModificar.php");
+					break 1;
+				case "13":
+					require_once ("../librerias/proveedorEliminar.php");
+					break 1;
+
+				case "15":
+					require_once ("../librerias/modeloModificar.php");
+					break 1;
+				case "16":
+					require_once ("../librerias/modeloEliminar.php");
+					break 1;
+				case "17":
+					require_once ("../librerias/pedidoNuevo.php");
+					break 1;
+				case "18":
+					require_once ("../librerias/pedidoModificar.php");
+					break 1;
+				case "19":
+					require_once ("../librerias/modeloAgregar.php");
+					break 1;
+					//******************************* USUARIO ***************************************
+				case "23":
+					require_once ("../librerias/usuarioAgregar.php");
+					break 1;
+				case "24":
+					require_once ("../librerias/usuarioModificar.php");
+					break 1;
+				case "25":
+					require_once ("../librerias/usuarioEliminar.php");
+					break 1;
+				case "26":
+					require_once ("../librerias/usuarioSistemaNuevo.php");
+					break 1;
+				case "27":
+					require_once ("../librerias/usuarioSistemaModificar.php");
+					break 1;
+				case "28":
+					require_once ("../librerias/usuarioSistemaEliminar.php");
+					break 1;
+				case "45":
+					require_once ("../librerias/usuarioSistemaRestaurar.php");
+					break 1;
+					//*********************************************************************************
+				case "29":
+					require_once ("../librerias/cargoAgregar.php");
+					break 1;
+				case "30":
+					require_once ("../librerias/cargoModificar.php");
+					break 1;
+				case "32":
+					require_once ("../librerias/gerenciaNuevo.php");
+					break 1;
+				case "33":
+					require_once ("../librerias/gerenciaModificar.php");
+					break 1;
+				case "34":
+					require_once ("../librerias/gerenciaEliminar.php");
+					break 1;
+				case "35":
+					require_once ("../librerias/divisionNuevo.php");
+					break 1;
+				case "36":
+					require_once ("../librerias/divisionModificar.php");
+					break 1;
+				case "37":
+					require_once ("../librerias/divisionEliminar.php");
+					break 1;
+
+				case "38":
+					require_once ("../librerias/departamentoNuevo.php");
+					break 1;
+				case "39":
+					require_once ("../librerias/departamentoModificar.php");
+					break 1;
+				case "40":
+					require_once ("../librerias/departamentoEliminar.php");
+					break 1;
+
+				case "41":
+					require_once ("../librerias/sitioNuevo.php");
+					break 1;
+				case "42":
+					require_once ("../librerias/sitioModificar.php");
+					break 1;
+				case "43":
+					require_once ("../librerias/sitioEliminar.php");
+					break 1;					
+					
+				case "130":
+					require_once("../librerias/equipoNuevo.php");
+					break 1;
+				case "131":
+					require_once ("../librerias/componenteNuevo.php");
+					break 1;
+				case "132":
+					require_once ("../librerias/informacionEquipo.php");
+					break 1;
+				case "134":
+					require_once ("../librerias/componenteAsignacion.php");
+					break 1;
+				case "135":
+					require_once ("../librerias/componentesAsociar.php");
+					break 1;
+				case "136":
+					require_once ("../librerias/prueba2.php");
+					break 1;			
+				case "137":
+					require_once ("../librerias/marcaNuevo.php");
+					break 1;	
+				case "138":
+					require_once ("../librerias/marcaModificar.php");
+					break 1;		
+				case "139":
+					require_once ("../librerias/marcaEliminar.php");
+					break 1;
+				case "140":
+					require_once ("../librerias/softwareAgregar.php");
+					break 1;	
+				case "141":
+					require_once ("../librerias/softwareModificar.php");
+					break 1;		
+				case "142":
+					require_once ("../librerias/softwareEliminar.php");
+					break 1;
+				case "143":
+					require_once ("../librerias/softwareTipoAgregar.php");
+					break 1;
+				case "144":
+					require_once ("../librerias/softwareTipoModificar.php");
+					break 1;
+				case "145":
+					require_once ("../librerias/softwareTipoEliminar.php");
+					break 1;
+				case "150":
+					require_once ("../librerias/pendienteNuevo.php");
+					break 1;
+				case "619":
+					require_once ("../librerias/usuarioSistemaCambiar.php");
+					break 1;
+				case "620":
+					require_once ("../librerias/formparammantenimientos.php");
+					break 1;
+				case "621":
+					require_once ("../librerias/formModifcarMantenimientosProgramados.php");
+					break 1;					
+					
+				case "622":
+					require_once ("../librerias/tipoNuevo.php");
+					break 1;					
+				case "623":
+					require_once ("../librerias/tipoModificar.php");
+					break 1;					
+				
+				default:
+					require_once ("principal.php");
+			}
+//		}
+		?>
